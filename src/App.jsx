@@ -1,15 +1,21 @@
-import React, { useState } from 'react'
-import Nav from './componets/Nav'
-import Footer from './componets/Footer'
+// import React, { createContext, useState } from 'react'
+// export const Datacontext=createContext(null);
+// import Nav from './componets/Nav'
+// import Footer from './componets/Footer'
 
-const App = () => {
-  const [data,setdata]=useState("bhots dasra data");
-  return (
-   <>
-   <Nav data={data}/>
-   <Footer/>
-   </>
-  )
-}
+// const App = () => {
+//   const [data,setdata]=useState("bhots sra data");
+//   return (
+ 
+// <Datacontext.Provider value={[data,setdata]}>
 
-export default App
+//    <Nav/>
+//    <Footer data={data}/>
+// </Datacontext.Provider>
+ 
+//   )
+// }
+
+// export default App
+
+

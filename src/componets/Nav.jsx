@@ -1,9 +1,14 @@
-import React from 'react'
 
-const Nav = (props) => {
-    const {data}=props;
+import { useContext } from 'react';
+import { Datacontext } from '../App';
+
+const Nav = () => {
+    // const {data}=props;
+    const [data,setdata]=useContext(Datacontext);
   return (
-    <div>{props}</div>
+    <>
+    <h1>{data}</h1>
+    </>
   )
 }
 
