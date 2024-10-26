@@ -1,4 +1,4 @@
-//{ make the context in the App.jxs }
+//{make the context in the App.jxs }
 
 // import React, { createContext, useState } from 'react'
 // export const Datacontext=createContext(null);
@@ -27,7 +27,9 @@ const App = () => {
 
     return (
         <div>
-            <h1>Hello</h1>  {/* Fixed 'hellow' to 'Hello' */}
+            <h1>context</h1>  {/* Fixed 'hellow' to 'Hello' */}
+            <h2>priyaaa</h2>
+            <button>cckic</button>
         </div>
     );
 }
