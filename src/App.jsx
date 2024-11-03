@@ -30,6 +30,7 @@ const App = () => {
             <h1>context</h1>  {/* Fixed 'hellow' to 'Hello' */}
             <h2>priyaaa</h2>
             <button>cckic</button>
+            <h2>jhjhyiyiyiy</h2>
         </div>
     );
 }
